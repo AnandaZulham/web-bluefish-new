@@ -1,3 +1,5 @@
+import {Link} from 'wouter'
+
 export default function Downloads() {
   return (
 	<>
@@ -15,7 +17,7 @@ export default function Downloads() {
 		<p>Alternatively some files are also available through Sourceforge:</p>
 		<a href="https://sourceforge.net/projects/bluefish/files/" className="btn btn-primary btn-sm" target="_blank" rel="noreferrer">Sourceforge.net</a>
 		<h4 className="mt-3">Installers and packages</h4>
-		<p>The Bluefish wiki has a page <a href="#">how to install Bluefish</a> on various different operating systems and distributions, such as Debian, Ubuntu, Fedora, Gentoo, Mac OSX, AltLinux, OpenSolaris and Windows.</p>
+		<p>The Bluefish wiki has a page <a href="https://bfwiki.tellefsen.net/index.php/Installing_Bluefish">how to install Bluefish</a> on various different operating systems and distributions, such as Debian, Ubuntu, Fedora, Gentoo, Mac OSX, AltLinux, OpenSolaris and Windows.</p>
 		<ul className="list-unstyled d-flex flex-wrap align-items-center">
 		  <li><a href="http://bfwiki.tellefsen.net/index.php/Installing_Bluefish#Installing_the_very_latest_on_Ubuntu_Linux" target="_blank" rel="noreferrer" className="btn btn-primary btn-sm mb-2 mr-2">Ubuntu Linux</a></li>
 		  <li><a href="http://bfwiki.tellefsen.net/index.php/Installing_Bluefish#Installing_the_very_latest_release_on_Debian" target="_blank" rel="noreferrer" className="btn btn-primary btn-sm mb-2 mr-2">Debian Linux</a></li>
@@ -52,7 +54,7 @@ export default function Downloads() {
 		<hr />
 		<p>There are several different sets of contributed data. If you have anything please send it to the bluefish team!</p>
 		<ul className="list-unstyled">
-		  <li><a href="">'made with Bluefish' icons</a></li>
+		  <Link href="/icons">'made with Bluefish' icons</Link>
 		  <li><a href="https://bfwiki.tellefsen.net/index.php/Main_Page">contributed data in the wiki, a couple of language definition files</a></li>
 		</ul>
 	  </div>

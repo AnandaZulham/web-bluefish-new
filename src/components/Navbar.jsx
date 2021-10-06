@@ -14,10 +14,10 @@ function Navbar() {
 
 	   <div className="collapse navbar-collapse" id="navbarNavDropdown">
 		 <ul className="navbar-nav">
-		   <Link href="/" className="nav-item"><a className="nav-link text-white">Home</a></Link>
-		   <Link href="features" className="nav-item"><a className="nav-link text-white">Features</a></Link>
-		   <Link href="/downloads" className="nav-item"><a className="nav-link text-white">Download</a></Link>
-		   <li className="nav-item"><a href="/development" className="nav-link text-white">Development</a></li>
+		   <Link href="/" className="nav-item nav-link text-white">Home</Link>
+		   <Link href="/features" className="nav-item nav-link text-white">Features</Link>
+		   <Link href="/downloads" className="nav-item nav-link text-white">Download</Link>
+		   <Link href="/development" className="nav-item nav-link text-white">Development</Link>
 		   <li className="nav-item dropdown"><p className="nav-link text-white dropdown-toggle mb-0" role="button" data-toggle="dropdown" id="navbarDropdown">Help</p>
 		   <div className="dropdown-menu bg-dark">
 			 <a href="https://bfwiki.tellefsen.net/index.php/Main_Page" target="_blank" rel="noreferrer" className="dropdown-item text-white bg-transparent">Wiki</a>
