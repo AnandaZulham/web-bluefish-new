@@ -1,0 +1,23 @@
+$primary: #22577A;
+$secondary: #FFA62B;
+$danger: #DB6400;
+$success: #FFC107;
+$info: #38A3A5;
+$warning: #01937C;
+$light: #FFFFFF;
+$dark: #082032;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Add custom code after this
