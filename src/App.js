@@ -6,6 +6,7 @@ import Development from './components/Development.jsx'
 import IconsPage from './components/IconsPage'
 import Footer from './components/Footer'
 import {Route} from 'wouter'
+import './App.css'
 
 function App() {
   return (
